@@ -11,7 +11,7 @@ if it lies print yes else print no
 #Declaring a rectangle
 x1 , y1 , x2 , y2 = 0, 0, 10, 8
  
-points = [(6, 2), (3, 4),(7,10)]
+points = [(6, 2), (3, 4), (7,10), (10,20)]#declare the points to check inside the rectangle.
 
 sort_x_coordinate = sorted(points, key=lambda x: x[0]) 
 print(sort_x_coordinate)
